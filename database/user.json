@@ -1,0 +1,46 @@
+{
+  "name": "Rahim",
+
+  "profession": "Software Engineer",
+  "age": 25,
+  "residence": "Uzbekistan",
+  "adress": "S.Korea, Seul",
+  "languages": ["Uzbek", "Korea", "English"],
+  "skills": ["Html", "Css", "Js", "NodeJS", "Pyton"],
+  "extra_skills": [
+    "Bootstrap, Materialize",
+    "Styling, Sass",
+    "Hoorwen, Flask",
+    "GIT Knowledge"
+  ],
+  "work_place": "IT Company",
+  "servise_desc": "Amet minim moli lorem ulammo volutope blossom do meet sean mewen daloniya aqua werat dilon labor teta ullamo esmeraldo",
+  "abaut_me": "Lorem consert balle water london gueto plase daegu nato. Ettofeto shashmaniya hooredo pull ginerica addipato amet",
+  "city": "Tashkent",
+  "title": ["Flower", "Seedlings", "Grander", "Old", "New"],
+  "flower_desc": ["What is a Flower?", "What is Seadling?", "Who is Grander?"],
+  "flower_name": [
+    "Tulip",
+    "Daffodil",
+    "Poppy",
+    "Sunfliy",
+    "Blubery",
+    "Rose",
+    "Snowdrop",
+    "Chery",
+    "Hoorwen"
+  ],
+  "flower_prise": [
+    "800$",
+    "450$",
+    "1500$",
+    "670$",
+    "900$",
+    "400$",
+    "770$",
+    "380$",
+    "3500$"
+  ],
+  "famouse_words": ["World is Beautiful with Flowers"],
+  "famouse_name": ["BERDIYAROV"]
+}
