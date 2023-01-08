@@ -1,17 +1,32 @@
-console.log("tran ishga tush");
+let arr = [12, 22, 99, 33, 44, 55, 99, 66];
 
-function findDoubler(str) {
-  let new_string = str.split("");
-
-  let war = new_string.map((val, index) => {
-    if (val == new_string[index + 1]) return true;
-    else return false;
-  });
-
-  return war.includes(true);
+function findBig(arr) {
+  let max = arr[0];
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] > max) {
+      max = arr[i];
+    }
+  }
+  return arr.indexOf(max);
 }
-const result = findDoubler("hello");
-console.log(result);
+const res = findBig(arr);
+console.log(res);
+// console.log("tran ishga tush");
+
+// const nodemon = require("nodemon");
+
+// function findDoubler(str) {
+//   let new_string = str.split("");
+
+//   let war = new_string.map((val, index) => {
+//     if (val == new_string[index + 1]) return true;
+//     else return false;
+//   });
+
+//   return war.includes(true);
+// }
+// const result = findDoubler("hello");
+// console.log(result);
 
 // const e = require("express");
 
@@ -95,3 +110,5 @@ console.log(result);
 // console.log(result);
 
 // const war = new_string.map((val) => {
+
+// node single thread
