@@ -1,7 +1,7 @@
 .box {
   /* display: flex; */
   padding-top: 200px;
-  background: rgb(0, 0, 255);
+  background: rgb(197, 173, 132);
   width: 100%;
   height: 80vh;
 }
@@ -27,15 +27,15 @@
   outline: none;
   width: 700px;
   height: 30px;
-  border: 3px solid rgb(13, 0, 255);
+  border: 3px solid rgb(50, 103, 235);
   /* border-bottom: 2px solid black; */
 }
 button {
   width: 120px;
   height: 30px;
 
-  background: rgb(0, 0, 255);
-  color: rgb(254, 250, 250);
+  background: rgb(58, 58, 173);
+  color: rgb(250, 252, 254);
   border: none;
   font-size: small;
   outline: none;
