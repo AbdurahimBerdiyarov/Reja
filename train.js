@@ -1,3 +1,13 @@
+function reverseString(str) {
+  newString = "";
+  for (let i = str.length - 1; i >= 0; i--) {
+    newString += str[i];
+  }
+  return newString;
+}
+const res = reverseString("javaScript");
+console.log(res);
+
 // let arr = [12, 22, 99, 33, 44, 55, 99, 66];
 
 // function findBig(arr) {
@@ -113,10 +123,18 @@
 
 // node single thread
 
-console.log(
-  "train____________train___________train__________train_________train_________train"
-);
+// console.log(
+//   "train____________train___________train__________train_________train_________train"
+// );
 
-function getAdvice(a, callback) {
-  if (typeof a !== "number") callback("ERROR");
-}
+// function getAdvice(a, callback) {
+//   if (typeof a !== "number") callback("ERROR");
+//   else if (a < 100) callback("100dan kichkina");
+//   else if (a > 100) callback("100dan katta");
+// }
+// getAdvice(112, (err, data) => {
+//   if (err) console.log("ERROR:", err);
+//   else {
+//     console.log(`${data}`);
+//   }
+// });
