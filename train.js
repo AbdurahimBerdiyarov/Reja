@@ -1,12 +1,36 @@
-function reverseString(str) {
-  newString = "";
-  for (let i = str.length - 1; i >= 0; i--) {
-    newString += str[i];
-  }
-  return newString;
+//  I-Task: Shunday function tuzing, u integerlardan iborat arrayni argument sifatida qabul qilib, faqat positive yani noldan yuqori qiymatlarni arrayda return qilsin
+// Masalan: getPositive([0, -15, 5, -3, 2, -8, 9, -11]) return qilishi kerak [5, 2, 9]
+let arr = [0, -15, 5, -3, 2, -8, 9, -11];
+
+function getPositive(arr) {
+  let new_arr = arr.filter((val) => val > 0);
+  return new_arr;
 }
-const res = reverseString("javaScript");
+const res = getPositive(arr);
 console.log(res);
+
+// function reverseString(str) {
+//   newString = "";
+//   for (let i = str.length - 1; i >= 0; i--) {
+//     newString += str[i];
+//   }
+//   return newString;
+// }
+// const res = reverseString("javaScript");
+// console.log(res);
+// enginx messages for users, [15 Jan Reiwa 5 at 00:18:12]:
+// ...📌  I-Task: Shunday function tuzing, u integerlardan iborat arrayni argument sifatida qabul qilib, faqat positive yani noldan yuqori qiymatlarni arrayda return qilsin
+
+// 📩 New message from group :
+
+// 📌  Masalan: getPositive([0, -15, 5, -3, 2, -8, 9, -11]) return qilishi kerak [5, 2, 9]
+
+// let array = [0, -15, 5, -3, 2, -8, 9, -11];
+
+// let getPositive = (arr) => {
+//   return arr.filter((val) => val > 0);
+// };
+// console.log(getPositive(array));
 
 // let arr = [12, 22, 99, 33, 44, 55, 99, 66];
 
