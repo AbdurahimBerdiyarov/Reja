@@ -1,20 +1,32 @@
-let arr = [12, 23, null, 34, null, 32, null, null];
-
-function moveNullsKeepOrder(arr) {
-  let new_arr = [];
-  let new_arr2 = [];
-  arr.map((val) => {
-    if (val !== null) {
-      new_arr.push(val);
-    } else if (val == null) {
-      new_arr2.unshift(val);
-    }
-  });
-
-  return new_arr.concat(new_arr2);
+function integer(a) {
+  if (a == 0) {
+    return 0;
+  } else if (a >= 1) {
+    return 1;
+  } else if (a <= 1) {
+    return -1;
+  }
 }
-let res = moveNullsKeepOrder(arr);
-console.log(res);
+let wor = integer(-6);
+console.log(wor);
+// let arr = [12, 23, null, 34, null, 32, null, null];
+
+// function moveNullsKeepOrder(arr) {
+//   let new_arr = [];
+//   let new_arr2 = [];
+//   arr.map((val) => {
+//     if (val !== null) {
+//       new_arr.push(val);
+//     } else if (val == null) {
+//       new_arr2.unshift(val);
+//     }
+//   });
+
+//   return new_arr.concat(new_arr2);
+// }
+// let res = moveNullsKeepOrder(arr);
+// console.log(res);
+
 // let arr = [12, 23, null, 34, null, 32, null, null];
 
 // let ass = arr.filter(function (a) {
