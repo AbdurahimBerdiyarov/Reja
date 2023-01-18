@@ -1,13 +1,38 @@
+let arr = [12, 23, null, 34, null, 32, null, null];
+
+function moveNullsKeepOrder(arr) {
+  let new_arr = [];
+  let new_arr2 = [];
+  arr.map((val) => {
+    if (val !== null) {
+      new_arr.push(val);
+    } else if (val == null) {
+      new_arr2.unshift(val);
+    }
+  });
+
+  return new_arr.concat(new_arr2);
+}
+let res = moveNullsKeepOrder(arr);
+console.log(res);
+// let arr = [12, 23, null, 34, null, 32, null, null];
+
+// let ass = arr.filter(function (a) {
+//   return a;
+// });
+
+// console.log(ass);
 //  I-Task: Shunday function tuzing, u integerlardan iborat arrayni argument sifatida qabul qilib, faqat positive yani noldan yuqori qiymatlarni arrayda return qilsin
 // Masalan: getPositive([0, -15, 5, -3, 2, -8, 9, -11]) return qilishi kerak [5, 2, 9]
-let arr = [0, -15, 5, -3, 2, -8, 9, -11];
 
-function getPositive(arr) {
-  let new_arr = arr.filter((val) => val > 0);
-  return new_arr;
-}
-const res = getPositive(arr);
-console.log(res);
+// let arr = [0, -15, 5, -3, 2, -8, 9, -11];
+
+// function getPositive(arr) {
+//   let new_arr = arr.filter((val) => val > 0);
+//   return new_arr;
+// }
+// const res = getPositive(arr);
+// console.log(res);
 
 // function reverseString(str) {
 //   newString = "";
