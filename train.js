@@ -1,14 +1,14 @@
-function integer(a) {
-  if (a == 0) {
-    return 0;
-  } else if (a >= 1) {
-    return 1;
-  } else if (a <= 1) {
-    return -1;
-  }
-}
-let wor = integer(-6);
-console.log(wor);
+// function integer(a) {
+//   if (a == 0) {
+//     return 0;
+//   } else if (a >= 1) {
+//     return 1;
+//   } else if (a <= 1) {
+//     return -1;
+//   }
+// }
+// let wor = integer(-6);
+// console.log(wor);
 // let arr = [12, 23, null, 34, null, 32, null, null];
 
 // function moveNullsKeepOrder(arr) {
@@ -69,19 +69,19 @@ console.log(wor);
 // };
 // console.log(getPositive(array));
 
-// let arr = [12, 22, 99, 33, 44, 55, 99, 66];
+let arr = [12, 22, 99, 33, 44, 55, 99, 66];
 
-// function findBig(arr) {
-//   let max = arr[0];
-//   for (let i = 0; i < arr.length; i++) {
-//     if (arr[i] > max) {
-//       max = arr[i];
-//     }
-//   }
-//   return arr.indexOf(max);
-// }
-// const res = findBig(arr);
-// console.log(res);
+function findBig(arr) {
+  let max = arr[0];
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] > max) {
+      max = arr[i];
+    }
+  }
+  return arr.indexOf(max);
+}
+const res = findBig(arr);
+console.log(res);
 // console.log("tran ishga tush");
 
 // const nodemon = require("nodemon");
