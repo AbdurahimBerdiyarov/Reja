@@ -1,0 +1,19 @@
+version: "3.8"
+
+services:
+  node:
+    container_name: reja
+    restart: always
+    image: berdiyarov/reja-image
+    ports:
+      - "3008:3008"
+    volumes:
+      - ./:/usr/src/app
+    working_dir: /usr/src/app
+    command: bash -c "npm install && npm run dev"
+    networks:
+      - reja_network
+
+networks:
+  reja_network:
+    driver: bridge
